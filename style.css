@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.top-bar {
+    min-height: 13px;
+    background-color: #0f670f80;
+}
+
+.logo {
+    max-height: 64px;
+    max-width: 64px;
+    padding: 0;
+    flex-grow: 0;
+    padding-left: 48px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* To vertically center the items if needed */
+    padding: 24px; /* Optional, adds some space around the content */
+}
+  
+.nav-bar .logo {
+    /* Optional: Adjust logo size */
+    width: 100px;
+}
+
+.nav-bar i {
+    display: none;
+}
+
+#sidemenu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+  
+#sidemenu li {
+    margin: 0 42px; /* Space between menu items */
+}
+
+#sidemenu li a {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: #001200;
+}
+
+#sidemenu .cont {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    background-color: #0F670F;
+    border: none;
+    border-radius: 17px;
+    padding: 2px 24px; 
+}
+
+.fas {
+    font-size: 24px;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    max-height: 328px;
+    max-width: 328px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.hero-text h1 {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 36px;
+    color: #001200;
+}
+.hero-text h1 .highlight {
+    color: #0F670F; /* Change this to the desired color */
+}
+
+.hero-text p {
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: #001200;
+    padding-top: 20px;
+    padding-bottom: 68px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    background-color: #023002;
+    color: white;
+}
+
+#about h1 {
+    font-family: 'jersey 25', sans-serif;
+    font-size: 36px;
+}
+
+#about h2{
+    font-family: 'jersey 25', sans-serif;
+    font-size: 32px;
+}
+
+.qualification-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 74px;
+}
+
+.qualification .image-gallery {
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    gap: 48px; /* 48px between rows */
+    padding-bottom: 24px;
+}
+
+.qualification .image-gallery .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 64px; /* 91px between columns */
+}
+
+.qualification .image-gallery img {
+    height: 137px;
+}
+
+.image-container img {
+    height: 140px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(0.9); /* Make the image smaller on hover */
+}
+
+.image-container .image-text {
+    display: flex;
+    font-family: 'jersey 25', sans-serif;
+    font-size: 24px;
+    color: #023002;
+    margin-top: 8px;
+    justify-content: center;
+}
+
+.image-container:hover .image-text {
+    display: flex; /* Show the text on hover */
+    color: white;
+}
+
+.image-container-cert .row {
+    gap: 48px;
+}
+
+.image-container-cert img {
+    min-height: 276px;
+    transition: transform 0.3s ease;
+}
+
+.image-container-cert:hover img {
+    transform: scale(0.9); /* Make the image smaller on hover */
+}
+
+.row-cert {
+    display: flex;
+    justify-content: center;
+    gap: 140px; /* 91px between columns */
+}
+
+.qualification-container{
+    padding-bottom: 56px;
+}
+
+#portfolio {
+    background-color: #001200;
+    color: white;
+}
+
+.portfolio-header {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 74px;
+}
+
+#portfolio h1 {
+    font-family: 'jersey 25', sans-serif;
+    font-size: 36px;
+}
+
+#portfolio h2{
+    font-family: 'jersey 25', sans-serif;
+    font-size: 32px;
+}
+
+.project-card {
+    background-image: url('Images/alt_image.png');
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 600px;
+    height: 360px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card .card-content {
+
+    padding: 20px;
+}
+
+.project-card .card-content h3 {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card .card-content p {
+    font-family: 'Jost', sans-serif;
+    font-size: 13px;
+    color: #333;
+    display: none;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+footer {
+    background-color: #021D02;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    padding-inline: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-container p {
+    margin: 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'jost', sans-serif;
+    font-size: 8px;
+}
+
+#backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #0F670F; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backToTopBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#backToTopBtn i {
+    font-size: 24px; /* Icon size */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .footer-container {
+        padding-inline: 180px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-bar 
+
+    #sidemenu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sidemenu li {
+        margin: 10px 0;
+    }
+
+    .footer-container {
+        padding-inline: 90px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        padding: 10px;
+    }
+
+    #about h1 {
+        font-size: 32px;
+    }
+
+    #about h2 {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .qualification-header {
+        padding-bottom: 24px;
+    }
+
+    .footer-container {
+        padding-inline: 45px;
+    }
+
+    .image-container .image-text {
+        font-size: 12px;
+    }
+
+    .qualification .image-gallery .row {
+        gap: 24px;
+        justify-items: center;
+    }
+
+    .image-container-cert img {
+        min-height: 125px;
+        transition: transform 0.3s ease;
+    }
+
+    .image-gallery .row-cert {
+        gap: 12px;
+    }
+
+    .qualification .image-container img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-bar {
+        padding: 5px;
+    }
+
+    #about h1 {
+        font-size: 24px;
+    }
+
+    #about h2 {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+
+    #portfolio h1 {
+        font-size: 24px;
+    }
+
+    #portfolio h2 {
+        font-size: 16px;
+    }
+
+    .hero-text h1 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .footer-container {
+        padding-inline: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-card .card-content h3 {
+        font-size: 18px;
+    }
+
+    .project-card .card-content p {
+        font-size: 12px;
+    }
+
+    .image-container-cert img {
+        min-height: 100px;
+        transition: transform 0.3s ease;
+    }
+
+    .qualification .image-gallery img {
+        height: 60px;
+    }
+    .portfolio-header {
+        padding-bottom: 24px;
+    }
+
+    #backToTopBtn {
+        scale: 0.8;
+    }
+
+    .nav-bar .logo {
+        padding: 8px 8px;
+    }
+}
