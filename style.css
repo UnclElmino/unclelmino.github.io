@@ -227,7 +227,7 @@
 }
 
 .project-card {
-    background-image: url('Images/alt_image.png');
+    position: relative;
     color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -246,13 +246,21 @@
 }
 
 .project-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.5; /* Adjust the opacity as needed */
 }
 
 .project-card .card-content {
-
+    position: relative;
+    z-index: 1;
     padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a background to the text for better readability */
 }
 
 .project-card .card-content h3 {
@@ -264,8 +272,7 @@
 .project-card .card-content p {
     font-family: 'Jost', sans-serif;
     font-size: 13px;
-    color: #333;
-    display: none;
+    color: #fff;
 }
 
 .project-cards {
