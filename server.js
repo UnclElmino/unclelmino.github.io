@@ -34,3 +34,8 @@ document.getElementById("Email").addEventListener("click", function() {
 document.getElementById("Resume").addEventListener("click", function() {
     window.open("EmilioShakhawat_resume.pdf", "_blank");
 });
+
+// Open link when sysDiagnose card is clicked
+document.getElementById("sysDiagnose").addEventListener("click", function() {
+    window.open("https://github.com/UnclElmino/Portfolio/tree/e35a16665bcc4b27a764194eee22d2e25c773e9b/System%20diagnosis%20tool", "_blank");
+});
