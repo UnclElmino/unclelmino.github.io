@@ -18,25 +18,14 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-
     mybutton.addEventListener("click", topFunction);
 
-    // Toggle side menu
-    function openmenu() {
-        document.getElementById("sidemenu").style.display = "flex";
-    }
-
-    function closemenu() {
-        document.getElementById("sidemenu").style.display = "none";
-    }
-
-    // Footer links
     document.getElementById("LinkedIn").addEventListener("click", function() {
-        window.open("https://www.linkedin.com/in/your-profile", "_blank");
+        window.open("https://www.linkedin.com/in/emilioimam/", "_blank");
     });
 
     document.getElementById("Github").addEventListener("click", function() {
-        window.open("https://github.com/your-profile", "_blank");
+        window.open("https://github.com/UnclElmino/Portfolio", "_blank");
     });
 
     document.getElementById("Email").addEventListener("click", function() {
@@ -44,16 +33,16 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     document.getElementById("Resume").addEventListener("click", function() {
-        window.open("path/to/your/resume.pdf", "_blank");
+        window.open("EmilioShakhawat_resume.pdf", "_blank");
     });
 
     // Open link when sysDiagnose card is clicked
     document.getElementById("sysDiagnose").addEventListener("click", function() {
-        window.open("https://link-to-your-project.com", "_blank");
+        window.open("https://github.com/UnclElmino/Portfolio/tree/main/System%20diagnosis%20tool", "_blank");
     });
 
     // Open link when netAnalysis card is clicked
     document.getElementById("netAnalysis").addEventListener("click", function() {
-        window.open("https://link-to-your-network-analysis-project.com", "_blank");
+        window.open("https://github.com/UnclElmino/Portfolio/tree/main/Wireshark%20Projects", "_blank");
     });
 });
