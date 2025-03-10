@@ -39,3 +39,8 @@ document.getElementById("Resume").addEventListener("click", function() {
 document.getElementById("sysDiagnose").addEventListener("click", function() {
     window.open("https://github.com/UnclElmino/Portfolio/tree/main/System%20diagnosis%20tool", "_blank");
 });
+
+// Open link when netAnalysis card is clicked
+document.getElementById("netAnalysis").addEventListener("click", function() {
+    window.open("https://github.com/UnclElmino/Portfolio/tree/main/System%20diagnosis%20tool", "_blank");
+});
