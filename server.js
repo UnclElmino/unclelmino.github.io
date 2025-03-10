@@ -42,5 +42,5 @@ document.getElementById("sysDiagnose").addEventListener("click", function() {
 
 // Open link when netAnalysis card is clicked
 document.getElementById("netAnalysis").addEventListener("click", function() {
-    window.open("https://github.com/UnclElmino/Portfolio/tree/main/System%20diagnosis%20tool", "_blank");
+    window.open("https://github.com/UnclElmino/Portfolio/tree/main/Wireshark%20Projects", "_blank");
 });
