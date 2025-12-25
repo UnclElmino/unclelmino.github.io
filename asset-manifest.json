@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/unclelmino.github.io/static/css/main.8e847fba.css",
+    "main.js": "/unclelmino.github.io/static/js/main.7142fe0b.js",
+    "static/js/453.71adf86d.chunk.js": "/unclelmino.github.io/static/js/453.71adf86d.chunk.js",
+    "static/media/bg.jpg": "/unclelmino.github.io/static/media/bg.e831bb9bb68fcb43a3cb.jpg",
+    "static/media/Jersey25-Regular.ttf": "/unclelmino.github.io/static/media/Jersey25-Regular.e2296b58e49e4ff80ff3.ttf",
+    "static/media/Jersey20-Regular.ttf": "/unclelmino.github.io/static/media/Jersey20-Regular.f62fc4d7026ffdf3e65a.ttf",
+    "static/media/Jersey15-Regular.ttf": "/unclelmino.github.io/static/media/Jersey15-Regular.78c13419c7746b1ff731.ttf",
+    "static/media/Jersey10-Regular.ttf": "/unclelmino.github.io/static/media/Jersey10-Regular.1096d03f408f835365d9.ttf",
+    "index.html": "/unclelmino.github.io/index.html",
+    "main.8e847fba.css.map": "/unclelmino.github.io/static/css/main.8e847fba.css.map",
+    "main.7142fe0b.js.map": "/unclelmino.github.io/static/js/main.7142fe0b.js.map",
+    "453.71adf86d.chunk.js.map": "/unclelmino.github.io/static/js/453.71adf86d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e847fba.css",
+    "static/js/main.7142fe0b.js"
+  ]
+}
